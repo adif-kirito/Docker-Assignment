@@ -1,0 +1,5 @@
+-- db/data.db
+CREATE TABLE calculations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    result FLOAT
+);
