@@ -1,7 +1,7 @@
 <?php
 
 try {
-    $dbh = new PDO('mysql:host=e_db;dbname=my_database', 'root', 'root');
+    $dbh = new PDO('mysql:host=db;dbname=my_database', 'root', 'root');
     echo '<h4 style="color: green">Connected to database sucessfully.</h4>';
 }
 catch (PDOException $e) {
