@@ -19,19 +19,19 @@ sudo apt-get install docker-compose
 git clone https://github.com/adif-kirito/Docker-Assignment.git
 ```
 
-## 2. Build docker compose
+## 4. Build docker compose
 
 ```
 docker-compose build
 ```
 
-## 3. Up docker compose
+## 5. Up docker compose
 
 ```
 docker-compose up
 ```
 
-## 4. Verify
+## 6. Verify
 
 Go to browser, enter http://*Host IP*/
 
